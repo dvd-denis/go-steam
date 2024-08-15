@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/dvd-denis/go-steam/v4/economy/inventory"
+	"github.com/dvd-denis/go-steam/economy/inventory"
 )
 
 type TradeReceiptItem struct {

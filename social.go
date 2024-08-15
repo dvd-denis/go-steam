@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dvd-denis/go-steam/v4/protocol"
-	"github.com/dvd-denis/go-steam/v4/protocol/protobuf"
-	"github.com/dvd-denis/go-steam/v4/protocol/steamlang"
-	"github.com/dvd-denis/go-steam/v4/rwu"
-	"github.com/dvd-denis/go-steam/v4/socialcache"
-	"github.com/dvd-denis/go-steam/v4/steamid"
+	"github.com/dvd-denis/go-steam/protocol"
+	"github.com/dvd-denis/go-steam/protocol/protobuf"
+	"github.com/dvd-denis/go-steam/protocol/steamlang"
+	"github.com/dvd-denis/go-steam/rwu"
+	"github.com/dvd-denis/go-steam/socialcache"
+	"github.com/dvd-denis/go-steam/steamid"
 	"google.golang.org/protobuf/proto"
 )
 

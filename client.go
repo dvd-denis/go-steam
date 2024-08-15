@@ -13,12 +13,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dvd-denis/go-steam/v4/cryptoutil"
-	"github.com/dvd-denis/go-steam/v4/netutil"
-	"github.com/dvd-denis/go-steam/v4/protocol"
-	"github.com/dvd-denis/go-steam/v4/protocol/protobuf"
-	"github.com/dvd-denis/go-steam/v4/protocol/steamlang"
-	"github.com/dvd-denis/go-steam/v4/steamid"
+	"github.com/dvd-denis/go-steam/cryptoutil"
+	"github.com/dvd-denis/go-steam/netutil"
+	"github.com/dvd-denis/go-steam/protocol"
+	"github.com/dvd-denis/go-steam/protocol/protobuf"
+	"github.com/dvd-denis/go-steam/protocol/steamlang"
+	"github.com/dvd-denis/go-steam/steamid"
 )
 
 // Represents a client to the Steam network.

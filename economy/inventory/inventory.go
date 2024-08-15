@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/dvd-denis/go-steam/v4/jsont"
+	"github.com/dvd-denis/go-steam/jsont"
 )
 
 type GenericInventory map[uint32]map[uint64]*Inventory

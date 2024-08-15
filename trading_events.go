@@ -1,8 +1,8 @@
 package steam
 
 import (
-	"github.com/dvd-denis/go-steam/v4/protocol/steamlang"
-	"github.com/dvd-denis/go-steam/v4/steamid"
+	"github.com/dvd-denis/go-steam/protocol/steamlang"
+	"github.com/dvd-denis/go-steam/steamid"
 )
 
 type TradeProposedEvent struct {

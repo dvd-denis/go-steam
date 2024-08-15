@@ -5,10 +5,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dvd-denis/go-steam/v4/protocol"
-	"github.com/dvd-denis/go-steam/v4/protocol/protobuf"
-	"github.com/dvd-denis/go-steam/v4/protocol/steamlang"
-	"github.com/dvd-denis/go-steam/v4/steamid"
+	"github.com/dvd-denis/go-steam/protocol"
+	"github.com/dvd-denis/go-steam/protocol/protobuf"
+	"github.com/dvd-denis/go-steam/protocol/steamlang"
+	"github.com/dvd-denis/go-steam/steamid"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -112,7 +112,7 @@ func (a *Auth) handleLogOnResponse(packet *protocol.Packet) {
 	if result == steamlang.EResult_OK {
 		atomic.StoreInt32(&a.client.sessionId, msg.Header.Proto.GetClientSessionid())
 		atomic.StoreUint64(&a.client.steamId, msg.Header.Proto.GetSteamid())
-		a.client.Web.webLoginKey = *body.WebapiAuthenticateUserNonce
+		// a.client.Web.webLoginKey = *body.WebapiAuthenticateUserNonce
 
 		go a.client.heartbeatLoop(time.Duration(body.GetOutOfGameHeartbeatSeconds()))
 

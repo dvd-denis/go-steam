@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/dvd-denis/go-steam/v4"
-	"github.com/dvd-denis/go-steam/v4/netutil"
-	"github.com/dvd-denis/go-steam/v4/protocol"
+	"github.com/dvd-denis/go-steam"
+	"github.com/dvd-denis/go-steam/netutil"
+	"github.com/dvd-denis/go-steam/protocol"
 )
 
 // Base structure holding common data among GsBot modules.

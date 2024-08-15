@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/dvd-denis/go-steam/v4/cryptoutil"
-	"github.com/dvd-denis/go-steam/v4/protocol"
-	"github.com/dvd-denis/go-steam/v4/protocol/protobuf"
-	"github.com/dvd-denis/go-steam/v4/protocol/steamlang"
+	"github.com/dvd-denis/go-steam/cryptoutil"
+	"github.com/dvd-denis/go-steam/protocol"
+	"github.com/dvd-denis/go-steam/protocol/protobuf"
+	"github.com/dvd-denis/go-steam/protocol/steamlang"
 	"google.golang.org/protobuf/proto"
 )
 
