@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Philipp15b/go-steam/v3/community"
-	"github.com/Philipp15b/go-steam/v3/economy/inventory"
-	"github.com/Philipp15b/go-steam/v3/netutil"
-	"github.com/Philipp15b/go-steam/v3/steamid"
+	"github.com/dvd-denis/go-steam/community"
+	"github.com/dvd-denis/go-steam/economy/inventory"
+	"github.com/dvd-denis/go-steam/netutil"
+	"github.com/dvd-denis/go-steam/steamid"
 )
 
 type APIKey string
