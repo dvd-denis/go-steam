@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/dvd-denis/go-steam/protocol/steamlang"
-	"github.com/dvd-denis/go-steam/steamid"
+	"github.com/dvd-denis/go-steam/v4/protocol/steamlang"
+	"github.com/dvd-denis/go-steam/v4/steamid"
 )
 
 // Friends list is a thread safe map

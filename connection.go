@@ -9,8 +9,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/dvd-denis/go-steam/cryptoutil"
-	"github.com/dvd-denis/go-steam/protocol"
+	"github.com/dvd-denis/go-steam/v4/cryptoutil"
+	"github.com/dvd-denis/go-steam/v4/protocol"
 )
 
 type connection interface {

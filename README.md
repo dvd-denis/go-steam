@@ -13,25 +13,25 @@ Some of the currently implemented features:
   * SteamGuard with two-factor authentication
   * Team Fortress 2: Crafting, moving, naming and deleting items
 
-If this is useful to you, there's also the [go-steamapi](https://github.com/dvd-denis/go-steamapi) package that wraps some of the official Steam Web API's types.
+If this is useful to you, there's also the [go-steamapi](https://github.com/dvd-denis/go-steam/v4api) package that wraps some of the official Steam Web API's types.
 
 ## Installation
 
-    go get github.com/dvd-denis/go-steam
+    go get github.com/dvd-denis/go-steam/v4
 
 ## Usage
 
 You can view the documentation with the [`godoc`](http://golang.org/cmd/godoc) tool or
-[online on godoc.org](http://godoc.org/github.com/dvd-denis/go-steam).
+[online on godoc.org](http://godoc.org/github.com/dvd-denis/go-steam/v4).
 
 You should also take a look at the following sub-packages:
 
-  * [`gsbot`](http://godoc.org/github.com/dvd-denis/go-steam/gsbot) utilites that make writing bots easier
-  * [example bot](http://godoc.org/github.com/dvd-denis/go-steam/gsbot/gsbot) and [its source code](https://github.com/dvd-denis/go-steam/blob/master/gsbot/gsbot/gsbot.go)
-  * [`trade`](http://godoc.org/github.com/dvd-denis/go-steam/trade) for trading
-  * [`tradeoffer`](http://godoc.org/github.com/dvd-denis/go-steam/tradeoffer) for trade offers
-  * [`economy/inventory`](http://godoc.org/github.com/dvd-denis/go-steam/economy/inventory) for inventories
-  * [`tf2`](http://godoc.org/github.com/dvd-denis/go-steam/tf2) for Team Fortress 2 related things
+  * [`gsbot`](http://godoc.org/github.com/dvd-denis/go-steam/v4/gsbot) utilites that make writing bots easier
+  * [example bot](http://godoc.org/github.com/dvd-denis/go-steam/v4/gsbot/gsbot) and [its source code](https://github.com/dvd-denis/go-steam/v4/blob/master/gsbot/gsbot/gsbot.go)
+  * [`trade`](http://godoc.org/github.com/dvd-denis/go-steam/v4/trade) for trading
+  * [`tradeoffer`](http://godoc.org/github.com/dvd-denis/go-steam/v4/tradeoffer) for trade offers
+  * [`economy/inventory`](http://godoc.org/github.com/dvd-denis/go-steam/v4/economy/inventory) for inventories
+  * [`tf2`](http://godoc.org/github.com/dvd-denis/go-steam/v4/tf2) for Team Fortress 2 related things
 
 ## Working with go-steam
 

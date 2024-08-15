@@ -3,8 +3,8 @@ package trade
 import (
 	"time"
 
-	"github.com/dvd-denis/go-steam/economy/inventory"
-	"github.com/dvd-denis/go-steam/trade/tradeapi"
+	"github.com/dvd-denis/go-steam/v4/economy/inventory"
+	"github.com/dvd-denis/go-steam/v4/trade/tradeapi"
 )
 
 type Slot uint

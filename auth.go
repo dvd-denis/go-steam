@@ -5,10 +5,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dvd-denis/go-steam/protocol"
-	"github.com/dvd-denis/go-steam/protocol/protobuf"
-	"github.com/dvd-denis/go-steam/protocol/steamlang"
-	"github.com/dvd-denis/go-steam/steamid"
+	"github.com/dvd-denis/go-steam/v4/protocol"
+	"github.com/dvd-denis/go-steam/v4/protocol/protobuf"
+	"github.com/dvd-denis/go-steam/v4/protocol/steamlang"
+	"github.com/dvd-denis/go-steam/v4/steamid"
 	"google.golang.org/protobuf/proto"
 )
 

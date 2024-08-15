@@ -1,4 +1,4 @@
-module github.com/dvd-denis/go-steam
+module github.com/dvd-denis/go-steam/v4
 
 go 1.22.6
 

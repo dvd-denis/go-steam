@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dvd-denis/go-steam"
-	"github.com/dvd-denis/go-steam/gsbot"
-	"github.com/dvd-denis/go-steam/protocol/steamlang"
+	"github.com/dvd-denis/go-steam/v4"
+	"github.com/dvd-denis/go-steam/v4/gsbot"
+	"github.com/dvd-denis/go-steam/v4/protocol/steamlang"
 )
 
 const usage string = "usage: gsbot [username] [-p password] [-a authcode] [-t twofactorcode] [-l loginkey]"
